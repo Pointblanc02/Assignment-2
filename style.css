@@ -1,0 +1,29 @@
+/* style.css */
+
+/* Hero Section */
+#hero {
+  background: dimgray no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  transition: color 0.2s;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f8c471;
+}
+
+/* About Section */
+#about img {
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+}
